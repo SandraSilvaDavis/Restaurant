@@ -9,13 +9,14 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body {
     font-size: 16px;
     font-family: Verdana, sans-serif;
+    color: #fff;
 }
 
 
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    background-color:black;
 }
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
@@ -26,7 +27,7 @@ header figure.logo {
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: #666;
+    background-color:#9cb99d;
 }
 nav ul {
     list-style-type: none;
@@ -39,9 +40,9 @@ nav ul li {
 }
 nav ul li a {
     display: block;
-    background-color: #444;
-    color: #eee;
-    border-left: 1px solid #777;
+    background-color: #9cb99d;
+    color: #f7f7f7;
+    border-left: 1px solid #4b4848;
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
@@ -50,11 +51,11 @@ nav ul li a {
 nav ul li:first-child a {border-left: none;}
 
 nav ul li a:hover {
-    background-color: #eee;
-    color: #333;
+    background-color:#f2f7f3d1;
+    color: #100f0f;
 }
 nav ul li.active a {
-    background-color: #000;
+    background-color: #7aa98e;
     color: #fff;
 }
 /*----------- MAIN --------------*/
@@ -62,19 +63,28 @@ main {
     padding: 0 2%;
     min-height: 10rem;
 }
+main p {
+    color:#100c0c
+}
+
+.herodrink img {
+    width: 100%;
+    height: auto;
+}
 picture.photoA {
     display: block;
     float: right;
     width: 46%;
     margin: 0;
     margin-left: 2%;
-
+  
 }
+
     
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: #100c0c;
     padding: .5rem 2%;
     text-align: center;
 }
