@@ -329,7 +329,7 @@ body {
 /*----------- HEADER --------------*/
 header {
   padding: 0.5rem 2%;
-  background-color: black;
+  background-color: rgba(227, 226, 169, 0.644);
 }
 
 header h1 {
@@ -371,6 +371,7 @@ nav ul li a {
   text-decoration: none;
   font-size: 0.9rem;
   text-align: center;
+  font-weight: 500;
 }
 
 nav ul li:first-child a {
@@ -389,12 +390,14 @@ nav ul li.active a {
 
 /*----------- MAIN --------------*/
 main {
-  padding: 0 2%;
+  padding: 0;
   min-height: 10rem;
 }
 
 main p {
   color: #100c0c;
+  margin: 0 2%;
+  line-height: 150%;
 }
 
 .herodrink img {
@@ -408,11 +411,16 @@ picture.photoA {
   width: 46%;
   margin: 0;
   margin-left: 2%;
+  margin-right: 2%;
+}
+picture.photoA img {
+  width: 100%;
+  height: auto;
 }
 
 /*----------- FOOTER --------------*/
 footer {
-  background-color: #100c0c;
+  background-color: #9cb99d;
   padding: 0.5rem 2%;
   text-align: center;
 }
