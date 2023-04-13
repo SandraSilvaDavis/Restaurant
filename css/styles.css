@@ -351,6 +351,15 @@ nav {
   background-color: #9cb99d;
 }
 
+nav button {
+  padding: 0.5rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: rgba(19, 16, 16, 0.686);
+  font-style: normal;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
