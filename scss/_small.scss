@@ -28,6 +28,7 @@ header figure.logo {
 /*----------- NAVIGATION --------------*/
 div#navWrapper {
     background-color:#9cb99d;
+    display: none;
 }
 
 nav{
@@ -42,6 +43,7 @@ nav{
       
       
       }
+     
       ul {
         display:none;
         list-style-type: none;
