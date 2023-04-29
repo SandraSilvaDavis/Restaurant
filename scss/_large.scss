@@ -9,8 +9,15 @@ header, nav, main, footer {
 
 /*----------- HEADER --------------*/
 
-
-
+nav{
+        button{display: none;}
+       
+        ul, ul.open{
+          margin-left: 2vw;
+          display: flex ;
+          border: none;
+        }    
+}
 /*----------- NAVIGATION --------------*/
 
 
