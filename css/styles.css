@@ -347,17 +347,37 @@ header figure.logo {
 }
 
 /*----------- NAVIGATION --------------*/
-nav {
+div#navWrapper {
   background-color: #9cb99d;
+  display: none;
 }
 
-nav button {
-  padding: 0.5rem;
-  background: transparent;
-  border: none;
-  font-size: 1.5rem;
-  color: rgba(19, 16, 16, 0.686);
-  font-style: normal;
+ul {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border-top: solid 1px rgba(52, 204, 14, 0.1);
+}
+
+ul z li {
+  flex: 1;
+}
+
+ul.open {
+  display: block;
+}
+
+li.active {
+  background-color: transparent;
+}
+
+ul li {
+  border-bottom: solid 1px rgba(231, 8, 8, 0.1);
+}
+
+ul li.active a {
+  background-color: rgba(52, 80, 55, 0.9411764706);
 }
 
 nav ul {
@@ -470,6 +490,14 @@ footer {
   }
   /*----------- BODY --------------*/
   /*----------- HEADER --------------*/
+  nav button {
+    display: none;
+  }
+  nav ul, nav ul.open {
+    margin-left: 2vw;
+    display: flex;
+    border: none;
+  }
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
   /*----------- FOOTER --------------*/
