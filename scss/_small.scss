@@ -21,89 +21,50 @@ header {
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
 header figure.logo {
-    float: left;
+    float: right;
     margin: 0 2% 0 0;
 }
 
 /*----------- NAVIGATION --------------*/
-div#navWrapper {
-    background-color:#9cb99d;
-    display: none;
-}
 
-nav{
-    button{
-        padding: .5rem;
-        background:transparent;
-        border: none;
-        font-size: 1.5rem;
-        color: rgba(19, 16, 16, 0.686);
-        font-style: normal;
-        display:flex;
-      
-      
-      }
-      ul {
-        display:none;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-       border-top: solid 1px rgba(52, 204, 14, 0.1);
-     
-      z
-    
-    
-        li {
-          flex: 1;
-        
-        }
-      }
-      ul.open {
-        display: block;
-      
-      }
-    
-      li.active {
-        background-color:transparent;
-      }
-      ul li {
-        border-bottom: solid 1px rgba(231, 8, 8, 0.1);
-      }
-    ul li.active a {
-      background-color: darken($menuColor,10%);
-     
-    }
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-nav ul li {
-    float: left;
-    width: 25%;
-}
-nav ul li a {
-    display: block;
-    background-color: #9cb99d;
-    color: #f7f7f7;
-    border-left: 1px solid #4b4848;
-    padding: .5rem 0;
-    text-decoration: none;
-    font-size: .9rem;
-    text-align: center;
-    font-weight: 500;
-}
-nav ul li:first-child a {border-left: none;}
+nav {
+  button{
+      position: absolute;
+      top:0;
+      right: 0;
+      background: transparent;
+      border: none;
+      font-size: 1.5rem;
+      color: #5c3b25;
+      padding: .5rem 2vw .5rem 1rem;
 
-nav ul li a:hover {
-    background-color:#f2f7f3d1;
-    color: #100f0f;
-}
-nav ul li.active a {
-    background-color: #7aa98e;
-    color: #fff;
-}
+  }
+
+ul{
+      background-color:$menuColor;
+      position: absolute;
+      right: 0;
+      width: 100%;
+      display: none;
+}//end ul
+
+ul.open {display :block;}
+
+
+ul li {border-bottom: 1px solid rgba(240, 234, 234, 0.1);}
+
+ul li a {
+  display: block;
+  padding: .9rem 2vw;
+  font-weight: $lightWeight;
+  color:#010c05;
+  text-decoration: none;
+  text-align: right;
+}// end anchors
+ul li.active a {background-color: darken($menuColor, 8);}
+UL li a:hover { background-color: darken($menuColor,4);}
+}//end nav
+
 /*----------- MAIN --------------*/
 main {
     padding: 0 ;
