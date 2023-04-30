@@ -323,13 +323,13 @@ html {
 body {
   font-size: 16px;
   font-family: Verdana, sans-serif;
-  color: #f6efef;
+  color: #12261d;
 }
 
 /*----------- HEADER --------------*/
 header {
   padding: 0.5rem 2%;
-  background-color: rgba(227, 226, 169, 0.644);
+  background-color: rgba(60, 118, 49, 0.644);
 }
 
 header h1 {
@@ -351,68 +351,56 @@ div#navWrapper {
   background-color: #9cb99d;
   display: none;
 }
-
-ul {
+div#navWrapper ul {
   display: none;
   list-style-type: none;
   padding: 0;
   margin: 0;
   border-top: solid 1px rgba(52, 204, 14, 0.1);
 }
-
-ul z li {
+div#navWrapper ul li {
   flex: 1;
 }
-
-ul.open {
+div#navWrapper ul.open {
   display: block;
 }
-
-li.active {
+div#navWrapper li.active {
   background-color: transparent;
 }
-
-ul li {
+div#navWrapper ul li {
   border-bottom: solid 1px rgba(231, 8, 8, 0.1);
 }
-
-ul li.active a {
-  background-color: rgba(52, 80, 55, 0.9411764706);
+div#navWrapper ul li.active a {
+  background-color: rgba(177, 213, 180, 0.941);
 }
-
-nav ul {
+div#navWrapper nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
-nav ul li {
+div#navWrapper nav ul li {
   float: left;
   width: 25%;
 }
-
-nav ul li a {
+div#navWrapper nav ul li a {
   display: block;
-  background-color: #9cb99d;
-  color: #f7f7f7;
-  border-left: 1px solid #4b4848;
+  background-color: #151715;
+  color: #ba1212;
+  border-left: 1px solid #db1515;
   padding: 0.5rem 0;
   text-decoration: none;
   font-size: 0.9rem;
   text-align: center;
   font-weight: 500;
 }
-
-nav ul li:first-child a {
+div#navWrapper nav ul li:first-child a {
   border-left: none;
 }
-
-nav ul li a:hover {
-  background-color: rgba(242, 247, 243, 0.8196078431);
+div#navWrapper nav ul li a:hover {
+  background-color: rgba(165, 204, 173, 0.82);
   color: #100f0f;
 }
-
-nav ul li.active a {
+div#navWrapper nav ul li.active a {
   background-color: #7aa98e;
   color: #fff;
 }
@@ -449,7 +437,7 @@ picture.photoA img {
 
 /*----------- FOOTER --------------*/
 footer {
-  background-color: #9cb99d;
+  background-color: rgba(60, 118, 49, 0.644);
   padding: 0.5rem 2%;
   text-align: center;
 }

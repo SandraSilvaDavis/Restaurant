@@ -9,14 +9,14 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body {
     font-size: 16px;
     font-family: Verdana, sans-serif;
-    color: #f6efef;
+    color: #12261d;
 }
 
 
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color:rgba(227, 226, 169, 0.644);
+    background-color:rgba(60, 118, 49, 0.644);
 }
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
@@ -27,9 +27,9 @@ header figure.logo {
 
 /*----------- NAVIGATION --------------*/
 div#navWrapper {
-  background-color: #9cb99d;
+  background-color:#9cb99d;
   display: none;
-}
+
 
 ul {
   display: none;
@@ -38,7 +38,7 @@ ul {
   margin: 0;
   border-top: solid 1px rgba(52, 204, 14, 0.1);
 }
-ul z li {
+ul  li {
   flex: 1;
 }
 
@@ -55,7 +55,7 @@ ul li {
 }
 
 ul li.active a {
-  background-color: rgba(52, 80, 55, 0.9411764706);
+  background-color: rgba(177, 213, 180, 0.941);
 }
 
 nav ul {
@@ -71,9 +71,9 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  background-color: #9cb99d;
-  color: #f7f7f7;
-  border-left: 1px solid #4b4848;
+  background-color: #151715;
+  color: #ba1212;
+  border-left: 1px solid #db1515;
   padding: 0.5rem 0;
   text-decoration: none;
   font-size: 0.9rem;
@@ -86,7 +86,7 @@ nav ul li:first-child a {
 }
 
 nav ul li a:hover {
-  background-color: rgba(242, 247, 243, 0.8196078431);
+  background-color: rgba(165, 204, 173, 0.82);
   color: #100f0f;
 }
 
@@ -95,7 +95,7 @@ nav ul li.active a {
   color: #fff;
 }
 
-
+}
 /*----------- MAIN --------------*/
 main {
     padding: 0 ;
@@ -130,7 +130,7 @@ img{
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color:  #9cb99d;
+    background-color:rgba(60, 118, 49, 0.644);
     padding: .5rem 2%;
     text-align: center;
 }
